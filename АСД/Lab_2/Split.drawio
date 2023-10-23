@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T21:00:50.733Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1mWTegqvAvLtQJpZnENp" version="22.0.3" type="device">
+  <diagram name="Страница — 1" id="3LAmRbIP-tCUfXXYl4HF">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8ABRafMGUdWhhQubLD6C-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z4h-n6DQJYZgECxDfuF2-1" target="8ABRafMGUdWhhQubLD6C-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z4h-n6DQJYZgECxDfuF2-1" value="public Tuple&amp;lt;MyStack, MyStack&amp;gt; SplitStack()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="318.75" y="130" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-3" target="8ABRafMGUdWhhQubLD6C-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-3" value="int count = _Top+1;&lt;br&gt;int halfCount = count / 2;&lt;br&gt;MyStack firstHalf = new MyStack(halfCount);&lt;br&gt;MyStack secondHalf = new MyStack(count - halfCount);&lt;br&gt;i = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328.75" y="210" width="172.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-9" value="Так" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-6" target="8ABRafMGUdWhhQubLD6C-8">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-15" value="Ні" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-6" target="8ABRafMGUdWhhQubLD6C-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="362.5" />
+              <mxPoint x="500" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-6" value="i &amp;lt; halfCount" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="340" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-8" target="8ABRafMGUdWhhQubLD6C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-8" target="8ABRafMGUdWhhQubLD6C-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-8" value="Elem element = _V[_Top];&lt;br&gt;firstHalf.Push(element);&lt;br&gt;&amp;nbsp;_Top--;&lt;br&gt;i++;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="420" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-17" value="Так" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-14" target="8ABRafMGUdWhhQubLD6C-16">
+          <mxGeometry x="-0.5604" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-14" value="_Top!=-1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="500" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-16" target="8ABRafMGUdWhhQubLD6C-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="608" />
+              <mxPoint x="320" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ABRafMGUdWhhQubLD6C-16" target="8ABRafMGUdWhhQubLD6C-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-16" value="Elem element = _V[_Top];&lt;br&gt;secondHalf.Push(element);&lt;br&gt;_Top--;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="584.5" width="165" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8ABRafMGUdWhhQubLD6C-19" value="return new Tuple&amp;lt;MyStack, MyStack&amp;gt;(firstHalf, secondHalf);" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="324.38" y="660" width="181.25" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

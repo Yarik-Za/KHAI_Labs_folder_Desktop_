@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T20:31:35.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="E3CiWbNioUNkrnhXGhh-" version="22.0.3" type="device">
+  <diagram name="Страница 1" id="tgT_ULOWopTS9hcM4FLb">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YPGbJ4z10p9gxlq-yLi2-2" target="YPGbJ4z10p9gxlq-yLi2-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-2" value="&amp;nbsp;public bool Pop()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="404" y="130" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-3" value="Так" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YPGbJ4z10p9gxlq-yLi2-5" target="YPGbJ4z10p9gxlq-yLi2-8" edge="1">
+          <mxGeometry x="-0.3551" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="454" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-4" value="Ні" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YPGbJ4z10p9gxlq-yLi2-5" target="YPGbJ4z10p9gxlq-yLi2-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="220" />
+              <mxPoint x="380" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-5" value="_Top == - 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="396.5" y="200" width="111" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YPGbJ4z10p9gxlq-yLi2-7" target="YPGbJ4z10p9gxlq-yLi2-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-7" value="&lt;div&gt;_Top--&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="407.5" y="340" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-8" value="return false" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="411" y="280" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YPGbJ4z10p9gxlq-yLi2-9" value="return true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="409" y="393" width="86" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -19,4 +19,5 @@ commit_message="Backup folder - $current_datetime"
 git commit -m "$commit_message"
 
 # Отправляем изменения на удаленный репозиторий (замените origin и master на ваши настройки)
-git push origin master
+git push origin main
+

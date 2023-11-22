@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git pull origin main
+
 # Определяем текущую дату и время
 current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
 

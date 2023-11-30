@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2023-11-30T13:15:01.969Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EVPxY55Bi_foeO1AgQR9" version="22.1.5" type="device">
+  <diagram name="Страница — 1" id="otXsoO2ZUiEkKz0Qu0vH">
+    <mxGraphModel dx="1368" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-1" target="bs-Y9t4HywpEHAnPLDTd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-5" value="+ Class 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-1" target="bs-Y9t4HywpEHAnPLDTd-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="694" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-1" value="Education" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672" y="530" width="265" height="190" as="geometry">
+            <mxRectangle x="510" y="270" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-28" value="&lt;div&gt;List&amp;lt;Class&amp;gt; classes;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;List&amp;lt;Teacher&amp;gt; teachers;&amp;nbsp;&lt;/div&gt;&lt;div&gt;List&amp;lt;Student&amp;gt; students;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Education(List&amp;lt;Class&amp;gt; classes,&lt;/div&gt;&lt;div&gt;List&amp;lt;Teacher&amp;gt; teachers, List&amp;lt;Student&amp;gt; students)&amp;nbsp;&lt;/div&gt;&lt;div&gt;addClass(Class schoolClass): void&lt;/div&gt;&lt;div&gt;getClasses(): List&amp;lt;Class&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;addTeacher(Teacher teacher): void&lt;/div&gt;&lt;div&gt;getTeachers(): List&amp;lt;Teacher&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;addStudent(Student student): void&lt;/div&gt;&lt;div&gt;getStudents():&amp;nbsp; List&amp;lt;Student&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-1">
+          <mxGeometry x="5" y="20" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-2" value="&amp;lt;&amp;lt; Interface &amp;gt;&amp;gt;&lt;br&gt;IPrintable&lt;br&gt;&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;&lt;&lt;Interface&gt;&gt; IPrintable&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:24},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;3a414aff&amp;quot;,&amp;quot;e&amp;quot;:24}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="365" y="590" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-19" value="PrintToDisplay(): void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-2">
+          <mxGeometry x="30" y="38" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-9" target="bs-Y9t4HywpEHAnPLDTd-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-4" value="Class" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="672" y="320" width="266" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-26" value="&lt;div&gt;int classNumber {get; set};&lt;/div&gt;&lt;div&gt;Teacher classTeacher;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;List&amp;lt;Student&amp;gt; students;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Class(int: classNumber, Teacher: classTeacher)&lt;/div&gt;&lt;div&gt;addStudent(Student student): void&lt;/div&gt;&lt;div&gt;getStudents(): List&amp;lt;Student&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;getClassTeacher(): Teacher&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-4">
+          <mxGeometry x="6" y="32" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-6" value="+ Class 2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-1" target="bs-Y9t4HywpEHAnPLDTd-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="704" y="450" as="sourcePoint" />
+            <mxPoint x="704" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-7" value="Teacher" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-25" value="&lt;div&gt;String firstName {get; set};&lt;/div&gt;&lt;div&gt;String lastName {get; set};&lt;/div&gt;&lt;div&gt;List&amp;lt;Subject&amp;gt; taughtSubjects;&lt;/div&gt;&lt;div&gt;Teacher(String: firstName, String: lastName)&amp;nbsp;&lt;/div&gt;&lt;div&gt;addTaughtSubject(Subject subject): void&lt;/div&gt;&lt;div&gt;getTaughtSubjects(): List&amp;lt;Subject&amp;gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-7">
+          <mxGeometry x="5" y="30" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-9" target="bs-Y9t4HywpEHAnPLDTd-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-9" value="Student" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;String firstName {get; set;};&lt;/div&gt;&lt;div&gt;String lastName {get; set;};&lt;/div&gt;&lt;div&gt;int age {get; set;};&lt;/div&gt;&lt;div&gt;List&amp;lt;Subject&amp;gt; chosedSubjects;&lt;/div&gt;&lt;div&gt;Student(String: firstName, String: lastName, int: age)&lt;/div&gt;&lt;div&gt;chooseSubject(Subject: subject): void&lt;/div&gt;&lt;div&gt;getEnrolledSubjects(): List&amp;lt;Subject&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-9">
+          <mxGeometry y="30" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-7" target="bs-Y9t4HywpEHAnPLDTd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-10" value="Subject" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="690" y="40" width="248" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-24" value="&lt;div&gt;&lt;div&gt;String name {get; set;};&lt;/div&gt;&lt;div&gt;Teacher teacher;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Subject(String: name, Teacher: teacher)&amp;nbsp;&lt;/div&gt;&lt;div&gt;getName():String&lt;/div&gt;&lt;div&gt;getTeacher(): Teacher&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-10">
+          <mxGeometry x="8" y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-16" value="&amp;lt;&amp;lt; Interface &amp;gt;&amp;gt;&lt;br&gt;IPerson&lt;br&gt;&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;&lt;&lt;Interface&gt;&gt; IPrintable&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;s&amp;quot;,&amp;quot;v&amp;quot;:22.22222222222222,&amp;quot;e&amp;quot;:24},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;3a414aff&amp;quot;,&amp;quot;e&amp;quot;:24}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-27" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;String firstName {get; set;};&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;String lastName {get; set;};&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;int age {get; set;};&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;List&amp;lt;Subject&amp;gt; Subjects;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bs-Y9t4HywpEHAnPLDTd-16">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-7" target="bs-Y9t4HywpEHAnPLDTd-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="485" as="sourcePoint" />
+            <mxPoint x="250" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bs-Y9t4HywpEHAnPLDTd-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bs-Y9t4HywpEHAnPLDTd-9" target="bs-Y9t4HywpEHAnPLDTd-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674" y="495" as="sourcePoint" />
+            <mxPoint x="310" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

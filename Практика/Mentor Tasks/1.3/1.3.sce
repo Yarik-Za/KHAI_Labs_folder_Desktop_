@@ -5,17 +5,12 @@ function F = system_eq(variables)
     F(2) = y - 2*x*y + 0.1;
 endfunction
 
-// Початкові наближення
-initial_guess = [0.1; 0.1];
+x0=[0; 0];
 
 // Використовуємо fsolve для знаходження розв'язку системи рівнянь
-[solution, info] = fsolve(initial_guess, system_eq);
+[solution, info] = fsolve(x0, system_eq);
 
 // Виводимо результат
 disp("Чисельний розвязок системи рівнянь:");
 disp("x = "), disp(solution(1));
 disp("y = "), disp(solution(2));
-
-// Перевірка результату
-disp("Перевірка:");
-disp(system_eq(solution));

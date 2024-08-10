@@ -15,7 +15,7 @@ function root = newtonRaphson(x0, epsilon, maxIterations)
         dfx = df(x);
         
         if abs(dfx) < epsilon then
-            error("Дериватва близька до нуля. Спробуйте інше початкове наближення.");
+            error("Похідна близька до нуля. Спробуйте інше початкове наближення.");
         end
         
         xNext = x - fx / dfx;

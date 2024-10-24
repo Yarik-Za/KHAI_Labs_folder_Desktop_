@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Зайченко Я. І. Модуль 1, питання №31,42</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        
+        .code-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f4f4f4; 
+    padding: 5px; 
+    border-radius: 8px; 
+    margin-bottom: 1.5em; 
+    font-family: monospace; 
+    overflow-x: auto; 
+    line-height: 1.2; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.code-container code {
+    white-space: pre; 
+    margin-right: 10px; 
+}
+
+.copy-btn {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 0.8em; 
+}
+
+.copy-btn:hover {
+    background-color: #45a049; 
+}
+
+
+    </style>
+    
+</head>
+
+<body>
+    <h1>Зайченко Я. І.
+        Модуль 1
+    </h1>
+    <h2>Питання модуля</h2>
+    <ol>
+        <li>Життєвий цикл ПЗ. Проектування. IDEF0 (питання 31);</li>
+        <li>CSS: Способи задання кольорів (питання 42).</li>
+    </ol>
+    
+    <h2>Життєвий цикл ПЗ. Проектування. IDEF0</h2>
+
+<p>Життєвий цикл програмного забезпечення (ПЗ) охоплює всі етапи його розробки, від початкової ідеї до завершення підтримки продукту. Цей цикл зазвичай включає наступні етапи:</p>
+
+<ul>
+    <li><strong>Визначення вимог:</strong> Описують, які функціональні та нефункціональні характеристики має забезпечувати ПЗ.</li>
+    <li><strong>Проектування:</strong> На цьому етапі формується архітектура системи, включаючи вибір технологій, структуризацію даних та інтерфейси.</li>
+    <li><strong>Реалізація:</strong> Написання коду за допомогою вибраних мов програмування та фреймворків.</li>
+    <li><strong>Тестування:</strong> Перевірка коректності роботи ПЗ шляхом виконання тестів та виправлення помилок.</li>
+    <li><strong>Впровадження:</strong> Установка ПЗ в робочому середовищі користувачів.</li>
+    <li><strong>Супровід:</strong> Підтримка та оновлення ПЗ для усунення дефектів і додавання нових можливостей.</li>
+</ul>
+
+<p>Що стосується проектування, то це критично важливий етап, на якому визначаються основні принципи роботи майбутньої системи. В процесі проектування створюються наступні артефакти:</p>
+
+<ul>
+    <li>Функціональні моделі та діаграми, що описують основні сценарії роботи ПЗ.</li>
+    <li>Архітектурні рішення, що включають структуру бази даних, компоненти системи та їх взаємодію.</li>
+</ul>
+
+<p>Одним з ключових інструментів для моделювання систем на етапі проектування є <strong>IDEF0</strong>. Це методологія для функціонального моделювання, яка дозволяє створювати ієрархічні діаграми, що відображають процеси, їх взаємодії, ресурси та дані.
+    Використання IDEF0 допомагає структурувати процеси та краще розуміти потоки даних і взаємодії між різними етапами.
+</p>
+
+<h2>CSS: Способи задання кольорів</h2>
+
+<p>У CSS існує кілька способів задання кольорів для елементів на сторінці. Основні з них включають:</p>
+
+<ul>
+    <li><strong>Назви кольорів (Color Names):</strong> CSS підтримує стандартний набір назв кольорів, таких як <code>red</code>, <code>blue</code>, <code>green</code>. Наприклад:</li>
+</ul>
+
+<div class="code-container">
+    <code>p {
+    color: red;
+}</code>    <button class="copy-btn" onclick="copyCode(this)">Копіювати</button>
+
+</div>
+
+<ul>
+    <li><strong>Шістнадцяткові значення (Hex Codes):</strong> Кольори можна задавати за допомогою шестигранного (hex) коду, що представляє значення червоного, зеленого і синього кольорів (RGB). Формат запису: <code>#RRGGBB</code>. Наприклад:</li>
+</ul>
+
+<div class="code-container">
+    <code>h1 {
+    color: #ff5733;
+}</code>    <button class="copy-btn" onclick="copyCode(this)">Копіювати</button>
+
+</div>
+
+<ul>
+    <li><strong>RGB (Red, Green, Blue):</strong> Цей спосіб дозволяє задавати кольори через функцію <code>rgb()</code>, де вказуються інтенсивності червоного, зеленого та синього компонентів (від 0 до 255). Наприклад:</li>
+</ul>
+
+<div class="code-container">
+    <code>div {
+    background-color: rgb(255, 87, 51);
+}</code>    <button class="copy-btn" onclick="copyCode(this)">Копіювати</button>
+
+</div>
+
+<ul>
+    <li><strong>RGBA (Red, Green, Blue, Alpha):</strong> Це розширений варіант <code>rgb()</code>, який додає четвертий параметр – прозорість (<code>alpha</code>), що визначає ступінь прозорості (від 0 до 1). Наприклад:</li>
+</ul>
+
+<div class="code-container">
+    <code>section {
+    background-color: rgba(255, 87, 51, 0.5);
+}</code>    <button class="copy-btn" onclick="copyCode(this)">Копіювати</button>
+
+</div>
+
+<ul>
+    <li><strong>HSL (Hue, Saturation, Lightness):</strong> Спосіб, який описує кольори через тон (від 0 до 360 градусів), насиченість (%) та яскравість (%). Наприклад:</li>
+</ul>
+
+<div class="code-container">
+    <code>article {
+    color: hsl(16, 100%, 50%);
+}</code>    <button class="copy-btn" onclick="copyCode(this)">Копіювати</button>
+
+</div>
+
+<ul>
+    <li><strong>HSLA (Hue, Saturation, Lightness, Alpha):</strong> Подібно до <code>rgba()</code>, цей формат додає прозорість до моделі <code>hsl()</code>. Наприклад:</li>
+</ul>
+
+<div class="code-container">
+    
+    <code>footer {
+    background-color: hsla(16, 100%, 50%, 0.7);
+}</code>
+<button class="copy-btn" onclick="copyCode(this)">Копіювати</button>
+</div>
+
+<p>Кожен із цих способів дозволяє гнучко використовувати кольори залежно від потреби, будь то прозорість, конкретні відтінки або просто базові назви кольорів.</p>
+
+<script>
+    function copyCode(button) {
+    var codeBlock = button.previousElementSibling; 
+    var tempTextArea = document.createElement("textarea");
+    tempTextArea.value = codeBlock.textContent; 
+    document.body.appendChild(tempTextArea);
+    tempTextArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempTextArea);
+    button.textContent = "Скопійовано!";
+    setTimeout(function() {
+        button.textContent = "Копіювати";
+    }, 2000);
+}
+
+</script>
+
+</body>
+</html>
